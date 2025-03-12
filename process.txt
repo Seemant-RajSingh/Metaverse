@@ -1,0 +1,8 @@
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dit/index.js"
+  }, in package.json :
+
+ts -> js conversion via build
+start app via node dit/index.js OR npm run start
+
