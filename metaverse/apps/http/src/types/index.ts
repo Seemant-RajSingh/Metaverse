@@ -1,4 +1,4 @@
-import z from "zod";
+import z from "zod";    // lib for input validation
 
 export const SignupSchema = z.object({
     username: z.string(),
@@ -59,7 +59,7 @@ export const CreateMapSchema = z.object({
     }))
 })
 
-
+// used in admin middleware
 declare global {
     namespace Express {
       export interface Request {

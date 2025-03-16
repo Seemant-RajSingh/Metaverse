@@ -3,6 +3,7 @@ import { router } from "./routes/v1/index"
 import client from "@repo/db/client"
 
 const app = express();
+app.use(express.json())
 
 // prefix router
 app.use("/api/v1", router)
